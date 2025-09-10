@@ -31,3 +31,13 @@ Utiliza **MySQL 5.1** como banco de dados e **Spring Data JPA** para persistênc
 
 ## 📂 Estrutura do Projeto
 
+│── src
+│ ├── main
+│ │ ├── java
+│ │ │ └── br.com.freedomtecnologia.api
+│ │ │ ├── controller # Controllers REST
+│ │ │ ├── model # Entidades JPA
+│ │ │ ├── repository # Repositórios JPA
+│ │ │ └── service # Regras de negócio
+│ │ └── resources
+│ │ ├── application.properties
